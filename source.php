@@ -72,7 +72,7 @@
                         <div class="card-body">
                             <p class="card-text">Some quick example text to build on the card </p>
                         </div>
-                        <a href="/promo.html" class="link">
+                        <a href="index.php?page=promoPage" class="link">
                             <div class="card-footer">
                                 <p class="text-visit-katalog">Visist</p>
                             </div>
