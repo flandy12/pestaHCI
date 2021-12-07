@@ -36,9 +36,9 @@
 
         <div class="katalog-product">
             <h2>Katalog Produk</h2>
-            <div class="row row-cols-2 row-cols-xs-2 row-cols-sm-2 row-cols-md-4 mt-4">
+            <div class="row">
 
-                <div class="col">
+                <div class="col-6 col-md-4 col-lg-3">
                     <div class="card" style="height: 18rem;">
                         <img src="./images/product/glass01.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
@@ -52,7 +52,7 @@
                     </div>
                 </div>
 
-                <div class="col">
+                <div class="col-6 col-md-4 col-lg-3">
                     <div class="card" style="height: 18rem;">
                         <img src="./images/product/glass01.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
@@ -66,7 +66,7 @@
                     </div>
                 </div>
 
-                <div class="col">
+                <div class="col-6 col-md-4 col-lg-3">
                     <div class="card" style="height: 18rem;">
                         <img src="./images/product/glass01.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
@@ -80,7 +80,7 @@
                     </div>
                 </div>
 
-                <div class="col">
+                <div class="col-6 col-md-4 col-lg-3">
                     <div class="card" style="height: 18rem;">
                         <img src="./images/product/glass01.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
