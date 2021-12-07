@@ -832,7 +832,7 @@ section
 	width: 100%;
 	height: 750px; /* Tinggi Home Slider */
 	background: #FFFFFF;
-	z-index: 2;
+	/* z-index: 2; */
 }
 .home_slider_container
 {
@@ -1432,7 +1432,7 @@ section
 .footer_overlay
 {
 	width: 100%;
-	height: 300px;
+	height: 200px;
 	background: transparent;
 	z-index: 1;
 }
@@ -1451,7 +1451,7 @@ section
 	top: 0;
 	left: 0;
 	width: 100%;
-	height: 100%;
+	height: 200px;
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center center;
@@ -1507,6 +1507,33 @@ section
 {
 	color: #FFFFFF;
 }
+/* footer landy */
+
+
+footer .site-map-all .site-map-top {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+footer .site-map-all .site-map-buttom {
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+} 
+
+.copy-right-2 {
+    text-align: right;
+}
+.site-map-2 {
+    font-size: 12px;
+    text-align: right;
+}
+
+.contact {
+    display: grid;
+    grid-template-rows: 25% 25% 25% 25%;
+}
+
 
 /*********************************
 12. Ads Slider
@@ -2780,6 +2807,38 @@ label
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
 } 
+/* btn */
+.detail-list .bnt-ajukan {
+    margin: 30px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+}
+.detail-list .bnt-ajukan .btn{
+    background-color: rgb(247, 56, 65);
+    border-radius: 10px;
+    color: white;
+    height: 40px;
+    width: 180px;
+}
+
+/* promo */
+.promo {
+    margin:10px 0 30px 0;
+}
+
+.product-lainnya {
+	margin: 30px 0;
+}
+.detail-promo {
+    padding: 50px;
+    text-align: center;
+}
+.detail-promo .sosmed img {
+    width: 35px;
+    margin-left: 15px;
+}
 
 .ojk img {
     height: 40px;
@@ -2790,8 +2849,6 @@ footer {
     padding: 50px;
     color: white;
     background-color: black;
-	margin-top: 300px;
- 
 }
 footer .contact {
     text-align: right;
