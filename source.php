@@ -1,104 +1,101 @@
-<div class="home">
-    <div class="home_slider_container">
-        <div class="promo">
-            <h2>Promo Untukmu</h2>
-            <!-- Slider main container -->
-            <div class="swiper mt-3">
-                <!-- Additional required wrapper -->
-                <div class="swiper-wrapper">
-                    <!-- Slides -->
-                    <div class="swiper-slide">
-                        <a href="./promo.html">
-                            <div class="card promo">
-                                <img src="./images/promo/promo01.png" alt="...">
-                            </div>
-                        </a>
-                    </div>
-                    <div class="swiper-slide">
-                        <a href="./promo.html">
-                            <div class="card promo">
-                                <img src="./images/promo/promo01.png" alt="...">
-                            </div>
-                        </a>
-                    </div>
-                    <div class="swiper-slide">
-                        <a href="./promo.html">
-                            <div class="card promo">
-                                <img src="./images/promo/promo01.png" alt="...">
-                            </div>
-                        </a>
-                    </div>
+<div class="container">
+    <div class="promo">
+        <h2>Promo Untukmu</h2>
+        <!-- Slider main container -->
+        <div class="swiper mt-3">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide">
+                    <a href="index.php?page=promoPage">
+                        <div class="card promo">
+                            <img src="./images/promo/promo01.png" alt="...">
+                        </div>
+                    </a>
                 </div>
-                <!-- If we need pagination -->
-                <div class="swiper-pagination"></div>
+                <div class="swiper-slide">
+                    <a href="index.php?page=promoPage">
+                        <div class="card promo">
+                            <img src="./images/promo/promo01.png" alt="...">
+                        </div>
+                    </a>
+                </div>
+                <div class="swiper-slide">
+                    <a href="index.php?page=promoPage">
+                        <div class="card promo">
+                            <img src="./images/promo/promo01.png" alt="...">
+                        </div>
+                    </a>
+                </div>
             </div>
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
         </div>
+    </div>
 
-        <div class="katalog-product">
-            <h2>Katalog Produk</h2>
-            <div class="row">
+    <div class="katalog-product">
+        <h2>Katalog Produk</h2>
+        <div class="row">
 
-                <div class="col-6 col-md-4 col-lg-3">
-                    <div class="card" style="height: 18rem;">
-                        <img src="./images/product/glass01.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <p class="card-text">Some quick example text to build on the card </p>
-                        </div>
-                        <a href="/promo.html" class="link">
-                            <div class="card-footer">
-                                <p class="text-visit-katalog">Visist</p>
-                            </div>
-                        </a>
+            <div class="col-6 col-md-4 col-lg-3">
+                <div class="card" style="height: 18rem;">
+                    <img src="./images/product/glass01.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">Some quick example text to build on the card </p>
                     </div>
-                </div>
-
-                <div class="col-6 col-md-4 col-lg-3">
-                    <div class="card" style="height: 18rem;">
-                        <img src="./images/product/glass01.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <p class="card-text">Some quick example text to build on the card </p>
+                    <a href="index.php?page=promoPage" class="link">
+                        <div class="card-footer">
+                            <p class="text-visit-katalog">Visist</p>
                         </div>
-                        <a href="/promo.html" class="link">
-                            <div class="card-footer">
-                                <p class="text-visit-katalog">Visist</p>
-                            </div>
-                        </a>
-                    </div>
+                    </a>
                 </div>
-
-                <div class="col-6 col-md-4 col-lg-3">
-                    <div class="card" style="height: 18rem;">
-                        <img src="./images/product/glass01.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <p class="card-text">Some quick example text to build on the card </p>
-                        </div>
-                        <a href="index.php?page=promoPage" class="link">
-                            <div class="card-footer">
-                                <p class="text-visit-katalog">Visist</p>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-
-                <div class="col-6 col-md-4 col-lg-3">
-                    <div class="card" style="height: 18rem;">
-                        <img src="./images/product/glass01.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <p class="card-text">Some quick example text to build on the card </p>
-                        </div>
-                        <a href="/promo.html" class="link">
-                            <div class="card-footer">
-                                <p class="text-visit-katalog">Visist</p>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-                
             </div>
+
+            <div class="col-6 col-md-4 col-lg-3">
+                <div class="card" style="height: 18rem;">
+                    <img src="./images/product/glass01.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">Some quick example text to build on the card </p>
+                    </div>
+                    <a href="index.php?page=promoPage" class="link">
+                        <div class="card-footer">
+                            <p class="text-visit-katalog">Visist</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+            <div class="col-6 col-md-4 col-lg-3">
+                <div class="card" style="height: 18rem;">
+                    <img src="./images/product/glass01.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">Some quick example text to build on the card </p>
+                    </div>
+                    <a href="index.php?page=promoPage" class="link">
+                        <div class="card-footer">
+                            <p class="text-visit-katalog">Visist</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+            <div class="col-6 col-md-4 col-lg-3">
+                <div class="card" style="height: 18rem;">
+                    <img src="./images/product/glass01.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">Some quick example text to build on the card </p>
+                    </div>
+                    <a href="index.php?page=promoPage" class="link">
+                        <div class="card-footer">
+                            <p class="text-visit-katalog">Visist</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
         </div>
     </div>
 </div>
-
 
 
 
